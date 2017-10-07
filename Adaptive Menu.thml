@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css.css">
+</head>
+<body>
+	<div class="bar">
+		<nav id="desktop">
+		<ul>
+			<li><a href="https://github.com/VladimirTasoev">Home</a></li>
+			<li><a href="https://dou.ua/users/vova-tasoev/">Contact</a></li>
+			<li><a href="https://www.facebook.com/vova.tasoev">About</a></li>
+			<li><a href="http://htmlbook.ru/">Download</a></li>
+		</ul>
+		</nav>
+	</div>
+
+	<div id="burg">
+		<a href="#">
+			<span class="bar" id="top"></span>
+			<span class="bar" id="middle"></span>
+			<span class="bar" id="bot"></span>
+		</a>
+	</div>
+
+	<div class="mobile-tab">
+		<nav id="mobile">
+		<ul>
+			<li><a href="https://github.com/VladimirTasoev">Home</a></li>
+			<li><a href="https://dou.ua/users/vova-tasoev/">Cantact</a></li>
+			<li><a href="https://www.facebook.com/vova.tasoev">About</a></li>
+			<li><a href="http://htmlbook.ru/">Download</a></li>
+		</ul>
+		</nav>
+	</div>
+<script src="jquery-3.2.1.min.js"></script>
+<script src="script.js"></script>	
+</body>
+</html>
